@@ -5,5 +5,3 @@ def basic_boi(a):
     for i in range(100):
         print(x + a)
         x += 2
-
-basic_boi(20)

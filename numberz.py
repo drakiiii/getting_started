@@ -2,14 +2,16 @@
 
 import random
 
+
 def is_valid_num(s):
     if s.isdigit() == True & 1 <= int(s) <= 100:
         return True
     else:
         return False
 
+
 def game():
-    number = random.randint(1,100)
+    number = random.randint(1, 100)
     guessed_number = False
     guess = input("Pick a number between 1 and 100: ")
     while not guessed_number:
@@ -26,9 +28,7 @@ def game():
             guess = input("Too high, try again please: ")
 
         else:
-            print ("Congratulations, you got it!")
+            print("Congratulations, you got it!")
             guessed_number = True
-                  
-    print ("Thanks for playing, you fucking gimp.")
 
-game()
+    print("Thanks for playing :P")
