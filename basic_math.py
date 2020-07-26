@@ -1,8 +1,9 @@
 #!/usr/bin/env python3.8
 
-for x,y in range(0,100):
-    y = (x ** 2) - 1
-    if y == x:
-        print(x,y)
-    else:
-        print("No pair matches this requirement.")
+def basic_boi(a):
+    x = 0
+    for i in range(100):
+        print(x + a)
+        x += 2
+
+basic_boi(20)
